@@ -1,0 +1,5 @@
+package com.zkteco.limitsservice.configuration;
+
+public class Configuration {
+
+}

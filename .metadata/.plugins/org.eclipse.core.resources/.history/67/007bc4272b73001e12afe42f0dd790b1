@@ -1,0 +1,5 @@
+package com.zkteco.limitsservice.controller;
+
+public class LimitsController {
+
+}
