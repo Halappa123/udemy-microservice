@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\udemy_git_microservices\udemy-microservice\api-gateway"/>
+			<item value="D:\udemy_git_microservices\udemy-microservice\naming-server"/>
+			<item value="D:\udemy_git_microservices\udemy-microservice\currency-conversion-service"/>
 			<item value="D:\udemy_git_microservices\udemy-microservice\currency-exchange-service"/>
 			<item value="D:\udemy  microservices\spring-cloud-config-server"/>
 			<item value="D:\udemy  microservices\limits-service"/>
