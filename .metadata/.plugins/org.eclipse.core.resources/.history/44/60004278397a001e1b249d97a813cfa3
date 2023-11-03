@@ -1,0 +1,22 @@
+#spring.application.name = api-gateway
+#server.port = 8765
+#eureka.client.serviceUrl.defaultZone =http://localhost:8761/eureka
+#spring.cloud.gateway.discovery.locator.enabled= true
+##eureka.instance.hostname=localhost
+
+# application name is optional to mention
+spring.application.name=api-gateway
+
+#port number which api-gateway is running
+server.port=8765
+
+# registering the eureka client to the api gateway is optional
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
+#eureka.instance.hostname=localhost
+#spring.cloud.gateway.discovery.locator.enabled=true
+#
+##its a property to enable to application name may be given as lower-case in api-gateway 
+#spring.cloud.gateway.discovery.locator.lower-case-service-id=true
+spring.cloud.config.import-check.enabled=false
+
+
