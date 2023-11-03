@@ -1,1 +1,13 @@
-/.metadata/
+*.class
+*.settings
+*.project
+*.classpath
+.idea
+*.iml
+target
+logs
+/*/.classpath
+/*/.project
+/*/.settings
+/*/target
+.flattened-pom.xml
