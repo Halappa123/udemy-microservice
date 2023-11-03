@@ -1,0 +1,19 @@
+spring.application.name=currency-exchange-service
+server.port=8000
+spring.config.import=optional:configserver:http://localhost:8888
+#spring.cloud.config.import-check.enabled=false.
+
+#spring.cloud.config.enabled=false
+
+
+
+spring.jpa.show-sql=true
+
+#H2 database url configuration
+spring.datasource.url=jdbc:h2:mem:testdb
+
+spring.h2.console.enabled=true
+#
+
+ 
+   

@@ -1,0 +1,20 @@
+package com.zkteco.apigateway;
+
+import org.hibernate.validator.internal.util.logging.LoggerFactory;
+import org.slf4j.ILoggerFactory;
+import org.springframework.cloud.gateway.filter.GatewayFilterChain;
+import org.springframework.cloud.gateway.filter.GlobalFilter;
+import org.springframework.web.server.ServerWebExchange;
+
+import reactor.core.publisher.Mono;
+
+public class LoggingFilters implements GlobalFilter {
+
+	@Override
+	public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
+		private ILoggerFactory logger=LoggerFactory(LoggingFilters.class);
+		
+		
+	}
+
+}

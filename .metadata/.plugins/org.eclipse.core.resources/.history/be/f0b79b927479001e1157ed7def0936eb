@@ -1,0 +1,5 @@
+package com.zkteco.currencyexchangeservice;
+
+public class CircuitBreakerController {
+
+}

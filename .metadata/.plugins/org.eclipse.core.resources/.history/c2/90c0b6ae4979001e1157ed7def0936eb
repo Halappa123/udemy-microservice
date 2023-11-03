@@ -1,0 +1,5 @@
+package com.zkteco.apigateway;
+
+public class ApiGatewayConfiguration {
+
+}
