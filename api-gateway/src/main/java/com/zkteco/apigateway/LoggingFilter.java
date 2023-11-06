@@ -12,6 +12,10 @@ import reactor.core.publisher.Mono;
 @Component
 public class LoggingFilter implements GlobalFilter {
 
+	
+
+	
+
  private Logger logger = LoggerFactory.getLogger(LoggingFilter.class);
 	
 	@Override
