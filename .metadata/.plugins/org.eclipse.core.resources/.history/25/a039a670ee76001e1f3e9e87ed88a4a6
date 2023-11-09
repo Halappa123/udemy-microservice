@@ -1,5 +1,0 @@
-package com.zkteco.currencyexchangeservice;
-
-public record JpaRepository() {
-
-}
